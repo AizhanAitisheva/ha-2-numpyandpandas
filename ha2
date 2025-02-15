@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 #1 While creating a series object can be created using various types of data.
-# In Pandas, a Series object can hold a data of any type (list, tuple, dictionaries, range object, etc.)'''
+# In Pandas, a Series object can hold a data of any type (list, tuple, dictionaries, range object, etc.)
 
 #2 Creating a series having the month's number as data and name as their index values? 
 s = pd.Series(np.arange(1, 13), index = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"])
